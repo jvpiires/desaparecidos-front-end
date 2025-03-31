@@ -32,25 +32,25 @@ A aplicação tem como objetivo possibilitar a consulta de dados de desaparecido
 Para rodar o projeto localmente, siga as etapas abaixo:
 
 
-# 1. Clonar o repositório:
+## 1. Clonar o repositório:
 Você já fez isso, mas só para garantir, o comando seria:
 
 - git clone https://github.com/jvpiires/desaparecidos-front-end.git
 - cd projeto-desaparecidos
 
-# 2. Instalar as dependências:
+## 2. Instalar as dependências:
 Após navegar até o diretório do projeto, execute:
 
  - npm install
 
-# Isso vai baixar e instalar todas as dependências definidas no arquivo package.json.
+### Isso vai baixar e instalar todas as dependências definidas no arquivo package.json.
 
-# 3. Rodar a aplicação:
+##  3. Rodar a aplicação:
 
 Agora, para rodar a aplicação localmente, execute:
  - npm run dev
 
-# Isso vai iniciar o servidor de desenvolvimento, e você pode acessar a aplicação no navegador através do endereço (normalmente http://localhost:3000 ou http://localhost:5173, dependendo da configuração do Vite).
+### Isso vai iniciar o servidor de desenvolvimento, e você pode acessar a aplicação no navegador através do endereço (normalmente http://localhost:3000 ou http://localhost:5173, dependendo da configuração do Vite).
 
 
 
