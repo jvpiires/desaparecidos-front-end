@@ -52,6 +52,9 @@ Agora, para rodar a aplicação localmente, execute:
 
 ### Isso vai iniciar o servidor de desenvolvimento, e você pode acessar a aplicação no navegador através do endereço (normalmente http://localhost:3000 ou http://localhost:5173, dependendo da configuração do Vite).
 
+### Após entrar no localhost tera uma tela de login 
+### User = admin
+### Senha = admin
 
 
 # PROJETO FEITO EM REACT + VITE + TAILWINDCSS
