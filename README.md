@@ -34,5 +34,5 @@ Para rodar o projeto localmente, siga as etapas abaixo:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/projeto-desaparecidos.git
+git clone https://github.com/jvpiires/desaparecidos-front-end.git
 cd projeto-desaparecidos
