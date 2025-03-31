@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# Projeto de Aplicação de Desaparecidos - Polícia Judiciária Civil de Mato Grosso
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto prático para o perfil de **Desenvolvedor Front-end**. O objetivo é implementar uma aplicação Single Page Application (SPA) para consultar e interagir com os dados de pessoas desaparecidas fornecidos pela **Polícia Judiciária Civil de Mato Grosso**.
 
-Currently, two official plugins are available:
+## Dados de Inscrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Nome**: JOÃO VICTOR PIRES DOS SANTOS
+- **E-mail**: jv.piires@outlook.com
+- **Data de Inscrição**: 30/03/2025
 
-## Expanding the ESLint configuration
+## Descrição do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A aplicação tem como objetivo possibilitar a consulta de dados de desaparecidos, bem como o envio de informações sobre esses casos. A aplicação foi construída utilizando **React** e algumas bibliotecas e frameworks como **TailwindCSS** para o design e **Axios** para comunicação com a API. A aplicação também inclui funcionalidades de Lazy Loading e Paginação.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Funcionalidades
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Tela Inicial**: Exibe uma lista de desaparecidos ou localizados, com imagens e informações básicas. Inclui paginação para mostrar até 10 desaparecidos por vez.
+2. **Tela de Detalhamento**: Exibe detalhes de um desaparecido selecionado, incluindo informações adicionais e a possibilidade de destacar sua situação (desaparecido ou localizado).
+3. **Tela de Inclusão de Informações**: Permite que o cidadão envie informações sobre um desaparecido, incluindo máscaras de formatação para os dados e upload de fotografias.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tecnologias Utilizadas
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React** (para o front-end)
+- **Axios** (para requisições HTTP)
+- **React Router** (para gerenciar as rotas e Lazy Loading)
+- **TailwindCSS** (para estilização responsiva)
+- **Formik** (para gerenciar formulários)
+- **Docker** (para containerização da aplicação)
+
+## Instalação e Execução
+
+Para rodar o projeto localmente, siga as etapas abaixo:
+
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/SEU_USUARIO/projeto-desaparecidos.git
+cd projeto-desaparecidos
