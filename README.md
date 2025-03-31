@@ -35,4 +35,8 @@ Para rodar o projeto localmente, siga as etapas abaixo:
 
 ```bash
 git clone https://github.com/jvpiires/desaparecidos-front-end.git
+<<<<<<< HEAD
 cd projeto-desaparecidos
+=======
+cd projeto-desaparecidos
+>>>>>>> 89f02234fb0a05885c66a3dc1925095bc284f090
