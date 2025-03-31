@@ -38,4 +38,4 @@ git clone https://github.com/jvpiires/desaparecidos-front-end.git
 cd projeto-desaparecidos
 
 
-# atualizado
+# PROJETO FEITO EM REACT + VITE + TAILWINDCSS
